@@ -1,0 +1,127 @@
+{
+   "title":"Métadonnées d'une organisation Git",
+   "author":"Antoine Augusti pour Etalab <antoine.augusti@data.gouv.fr>",
+   "created":"2018-12-31",
+   "updated":"2021-10-23",
+   "homepage":"https://github.com/etalab/data-codes-sources-fr",
+   "fields":[
+      {
+         "name":"login",
+         "description":"Le pseudo de l'organisation",
+         "example":"Etalab",
+         "type":"string",
+         "constraints": {
+            "required": true
+         }
+      },
+      {
+         "name":"description",
+         "description":"La description de l'organisation",
+         "example":"Observatoire accidentologie plaisance et loisirs nautiques France",
+         "type":"string",
+         "constraints": {
+            "required": false
+         }
+      },
+      {
+         "name":"name",
+         "description":"Le nom complet de l'organisation",
+         "example":"Ministère de l'Intérieur",
+         "type":"string",
+         "constraints": {
+            "required": false
+         }
+      },
+      {
+         "name":"organization_url",
+         "description":"URL vers l'organisation",
+         "example":"https://github.com/etalab",
+         "type":"string",
+         "format": "uri",
+         "constraints": {
+            "required": true
+         }
+      },
+      {
+         "name":"avatar_url",
+         "description":"URL vers l'avatar de l'organisation",
+         "example":"https://avatars1.githubusercontent.com/u/5313610?v=4",
+         "type":"string",
+         "format": "uri",
+         "constraints": {
+            "required": false
+         }
+      },
+      {
+         "name":"website",
+         "description":"Site web de l'organisation",
+         "example":"https://etalab.gouv.fr",
+         "type":"string",
+         "format": "uri",
+         "constraints": {
+            "required": false
+         }
+      },
+      {
+         "name":"location",
+         "description":"Adresse physique de l'organisation",
+         "example":"Paris, France",
+         "type":"string",
+         "constraints": {
+            "required": false
+         }
+      },
+      {
+         "name":"email",
+         "description":"Adresse e-mail de contact de l'organisation",
+         "example":"contact@etalab.gouv.fr",
+         "type":"string",
+         "format":"email",
+         "constraints": {
+            "required": false
+         }
+      },
+      {
+         "name":"is_verified",
+         "description":"Indique si l'organisation a prouvé qu'elle détenait les noms de domaines associés à son organisation",
+         "example":"true",
+         "type":"boolean",
+         "constraints": {
+            "required": false
+         }
+      },
+      {
+         "name":"repositories_count",
+         "description":"Le nombre de répertoires publics de l'organisation",
+         "example":42,
+         "type":"integer",
+         "constraints": {
+            "required": true,
+            "minimum": 0
+         }
+      },
+      {
+         "name":"creation_date",
+         "description":"La date de création de l'organisation",
+         "example":"2013-08-26T16:03:40Z",
+         "type":"datetime",
+         "constraints": {
+            "required": false
+         }
+      },
+      {
+         "name":"platform",
+         "description":"La plateforme utilisée de l'organisation",
+         "example":"GitHub",
+         "type":"string",
+         "constraints": {
+            "required": true,
+            "enum":[
+               "GitHub",
+               "GitLab"
+            ]
+         }
+      }
+   ],
+   "primaryKey":"organization_url"
+}

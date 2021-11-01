@@ -1,0 +1,193 @@
+{
+   "title":"Métadonnées d'un répertoire Git",
+   "author":"Antoine Augusti pour Etalab <antoine.augusti@data.gouv.fr>",
+   "created":"2018-12-31",
+   "updated":"2021-10-23",
+   "homepage":"https://github.com/etalab/data-codes-sources-fr",
+   "fields":[
+      {
+         "name":"name",
+         "description":"Le nom du répertoire",
+         "example": "nom-repertoire",
+         "type":"string",
+         "constraints": {
+            "required": true
+         }
+      },
+      {
+         "name":"organization_name",
+         "description":"Le nom de l'organisation",
+         "example": "etalab",
+         "type":"string",
+         "constraints": {
+            "required": true
+         }
+      },
+      {
+         "name":"platform",
+         "description":"La plateforme de dépôt de code",
+         "example": "GitHub",
+         "type":"string",
+         "constraints": {
+            "required": true,
+            "enum":[
+               "GitHub",
+               "GitLab"
+            ]
+         }
+      },
+      {
+         "name":"repository_url",
+         "description":"L'URL vers le répertoire",
+         "example": "https://github.com/etalab/nom-repertoire",
+         "type":"string",
+         "format":"uri",
+         "constraints": {
+            "required": true
+         }
+      },
+      {
+         "name":"description",
+         "description":"La description du répertoire",
+         "example": "Ce répertoire est utile",
+         "type":"string",
+         "constraints": {
+            "required": false
+         }
+      },
+      {
+         "name":"is_fork",
+         "description":"Indique si le répertoire est un fork",
+         "example": "false",
+         "type":"boolean",
+         "constraints": {
+            "required": false
+         }
+      },
+      {
+         "name":"is_archived",
+         "description":"Indique si le répertoire est archivé, c'est-à-dire qu'il est en lecture seule",
+         "example": "false",
+         "type":"boolean",
+         "constraints": {
+            "required": true
+         }
+      },
+      {
+         "name":"creation_date",
+         "description":"La date de création du répertoire",
+         "example": "2018-12-01T20:00:55Z",
+         "type":"datetime",
+         "constraints": {
+            "required": true
+         }
+      },
+      {
+         "name":"last_update",
+         "description":"La date de dernière mise à jour du répertoire. Cette mise à jour peut être également autre chose que du code comme des métadonnées du répertoire, des activités sur des issues ou des pull requests.",
+         "example": "2018-12-01T20:00:55Z",
+         "type":"datetime",
+         "constraints": {
+            "required": true
+         }
+      },
+      {
+         "name":"last_modification",
+         "description":"La date de dernière modification du répertoire. On entend par modification une modification du code source par le biais d'un commit.",
+         "example": "2018-12-01T20:00:55Z",
+         "type":"datetime",
+         "constraints": {
+            "required": true
+         }
+      },
+      {
+         "name":"homepage",
+         "description":"URL vers la page d'accueil du projet",
+         "example": "https://etalab.gouv.fr",
+         "type":"string",
+         "constraints": {
+            "required": false
+         }
+      },
+      {
+         "name":"stars_count",
+         "description":"Le nombre de fois où le répertoire a été ajouté aux favoris",
+         "example": 42,
+         "type":"integer",
+         "constraints": {
+            "minimum": 0,
+            "required": true
+         }
+      },
+      {
+         "name":"forks_count",
+         "description":"Le nombre de fois où le répertoire a été forké",
+         "example": 13,
+         "type":"integer",
+         "constraints": {
+            "minimum": 0,
+            "required": true
+         }
+      },
+      {
+         "name":"license",
+         "description":"La licence du répertoire, telle que détectée par la plateforme",
+         "example": "MIT",
+         "type":"string",
+         "constraints": {
+            "required": false
+         }
+      },
+      {
+         "name":"open_issues_count",
+         "description":"Le nombre d'issues actuellement ouvertes",
+         "example": "0",
+         "type":"integer",
+         "constraints": {
+            "required": true,
+            "minimum": 0
+         }
+      },
+      {
+         "name":"language",
+         "description":"Le langage principal du répertoire, tel que détecté par la plateforme",
+         "example": "Python",
+         "type":"string",
+         "constraints": {
+            "required": false
+         }
+      },
+      {
+         "name":"topics",
+         "description":"Les tags du répertoire",
+         "example": "utile,france,opendata",
+         "type":"string",
+         "constraints": {
+            "required": false
+         }
+      },
+      {
+         "name":"software_heritage_exists",
+         "description":"Indique si le répertoire a déjà été archivé sur Software Heritage",
+         "example": "false",
+         "type":"boolean",
+         "constraints": {
+            "required": false
+         }
+      },
+      {
+         "name":"software_heritage_url",
+         "description":"L'URL vers l'interface web de Software Heritage pour ce répertoire",
+         "example": "https://archive.softwareheritage.org/browse/origin/https://github.com/etalab/etalab/directory/",
+         "type":"string",
+         "format":"uri",
+         "constraints": {
+            "required": false
+         }
+      }
+   ],
+   "primaryKey": [
+      "repository_url",
+      "organization_name"
+   ]
+}
