@@ -11,11 +11,11 @@ tasks:
       cd codegouvfr-fetch-data
       rsync -e "ssh -o StrictHostKeyChecking=no" -av communs.numerique.gouv.fr:/home/build/websites/codegouvfr-data/ data/
       mkdir -p data/{libraries,organizations,repositories}/{csv,json}
-      ls -l
-      ls -l data/
-      # pip3 install -r requirements.txt
-      # python3 fetch.py
-      # python3 stats.py
+      pip3 install -r requirements.txt
+      python3 fetch.py
+      python3 stats.py
+  - upload: |
+      rsync -e "ssh -o StrictHostKeyChecking=no" -av data/ communs.numerique.gouv.fr:/home/build/websites/codegouvfr-data/
 triggers:
   - action: email
     condition: failure
