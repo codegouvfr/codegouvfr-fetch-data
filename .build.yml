@@ -1,5 +1,6 @@
 image: debian/oldstable
 packages:
+  - rsync
   - python3-pip
 secrets:
   - 463872c8-309d-4d42-a3b7-e0588cb66204
