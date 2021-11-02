@@ -15,6 +15,7 @@ tasks:
       python3 fetch.py
       python3 stats.py
   - upload: |
+      cd codegouvfr-fetch-data
       rsync -e "ssh -o StrictHostKeyChecking=no" -av data/ communs.numerique.gouv.fr:/home/build/websites/codegouvfr-data/
 triggers:
   - action: email
