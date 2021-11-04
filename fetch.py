@@ -10,7 +10,7 @@ def fetch_orgs(detector):
     organizations = []
 
     resp = urlopen(
-        "https://raw.githubusercontent.com/DISIC/politique-de-contribution-open-source/master/comptes-organismes-publics"
+        "https://git.sr.ht/~etalab/codegouvfr-sources/blob/master/comptes-organismes-publics"
     )
     data = BytesIO(resp.read())
     data = set([l.lower().decode("utf-8").strip() for l in data])
