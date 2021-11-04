@@ -73,6 +73,14 @@ Les données sont décrites à l'aide de fichiers [Table Schema](https://frictio
 | creation_date      | date et heure                         | La date de création de l'organisation              | 2013-08-26T16:03:40Z                                       | Valeur optionnelle                                     |
 | platform           | chaîne de caractères                  | La plateforme utilisée de l'organisation           | GitHub                                                     | Valeur obligatoire, Valeurs autorisées : GitHub,GitLab |
 
+# Contributions
+
+Vos contributions sont les bienvenues !
+
+Pour des retours d'anomalie ou des propositions de contributions sur
+l'un de ces dépôts, merci d'écrire à la liste de discussion *publique*
+[~etalab/logiciels-libres@lists.sr.ht](mailto:~etalab/logiciels-libres@lists.sr.ht).
+
 # Droits d’auteur et licence
 
 Le code source du répertoire est publié sous [la licence MIT](LICENSE.md). Les données, disponibles dans le répertoire [data](data) sont publiées sous la [Licence Ouverte 2.0](https://www.etalab.gouv.fr/licence-ouverte-open-licence).
