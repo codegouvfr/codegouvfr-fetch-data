@@ -1,7 +1,3 @@
-[![Software License](https://img.shields.io/badge/Licence-MIT%2C%20Licence%20Ouverte-orange.svg?style=flat-square)](https://git.sr.ht/~etalab/codegouvfr-fetch-data/blob/master/LICENSE.md)
-
-[![goodtables.io](https://goodtables.io/badge/github/etalab/data-codes-sources-fr.svg)](https://goodtables.io/github/etalab/data-codes-sources-fr)
-
 # Ce que fait codegouvfr-fetch-data
 
 Le but de ce dépôt est de :
@@ -14,6 +10,8 @@ Ne sont pour l'instant traités que les comptes présents sur GitHub et les forg
 Pour ajouter le compte d'organisation de votre organisme, vous pouvez proposer de modifier [le fichier](https://git.sr.ht/~etalab/codegouvfr-sources/blob/master/comptes-organismes-publics).
 
 ## Données
+
+[![goodtables.io](https://goodtables.io/badge/github/etalab/data-codes-sources-fr.svg)](https://goodtables.io/github/etalab/data-codes-sources-fr)
 
 Les données sont publiées aux formats CSV et JSON dans le dossier [data](data). Chaque dossier contient un fichier `all.{csv,json}` qui contient l'ensemble des répertoires ou des organisations. Ces fichiers sont à privilégier lorsque vous souhaitez faire une analyse globale.
 
@@ -76,10 +74,12 @@ Pour des retours d'anomalie ou des propositions de contributions sur
 l'un de ces dépôts, merci d'écrire à la liste de discussion *publique*
 [~etalab/logiciels-libres@lists.sr.ht](mailto:~etalab/logiciels-libres@lists.sr.ht).
 
-# Droits d’auteur et licence
+# Licence
 
 Le code source du répertoire est publié sous [la licence MIT](LICENSE.md). Les données, disponibles dans le répertoire [data](data) sont publiées sous la [Licence Ouverte 2.0](https://www.etalab.gouv.fr/licence-ouverte-open-licence).
 
-© 2018-2021 Direction interministérielle du numérique et du système d’information et de communication de l’État, Antoine Augusti, Bastien Guerry.
+[![Software License](https://img.shields.io/badge/Licence-MIT%2C%20Licence%20Ouverte-orange.svg?style=flat-square)](https://git.sr.ht/~etalab/codegouvfr-fetch-data/blob/master/LICENSE.md)
 
-© 2018-2021 Les autres contributeurs dans la liste est accessible via l’historique du dépôt.
+2018-2021 Direction interministérielle du numérique et du système d’information et de communication de l’État, Antoine Augusti, Bastien Guerry.
+
+2018-2021 Les autres contributeurs dans la liste est accessible via l’historique du dépôt.
