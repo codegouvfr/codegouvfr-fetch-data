@@ -1,3 +1,5 @@
+[![Software License](https://img.shields.io/badge/Licence-MIT-orange.svg?style=flat-square)](https://git.sr.ht/~etalab/codegouvfr-fetch-data/blob/master/LICENSE.md)
+
 # Ce que fait codegouvfr-fetch-data
 
 Le but de ce dépôt est de :
@@ -76,9 +78,7 @@ l'un de ces dépôts, merci d'écrire à la liste de discussion *publique*
 
 # Licence
 
-Le code source du répertoire est publié sous [la licence MIT](LICENSE.md). Les données, disponibles dans le répertoire [data](data) sont publiées sous la [Licence Ouverte 2.0](https://www.etalab.gouv.fr/licence-ouverte-open-licence).
-
-[![Software License](https://img.shields.io/badge/Licence-MIT%2C%20Licence%20Ouverte-orange.svg?style=flat-square)](https://git.sr.ht/~etalab/codegouvfr-fetch-data/blob/master/LICENSE.md)
+Le code source du répertoire est publié sous [la licence MIT](LICENSE.md).
 
 2018-2021 Direction interministérielle du numérique et du système d’information et de communication de l’État, Antoine Augusti, Bastien Guerry.
 
