@@ -1,22 +1,17 @@
-[![CircleCI build status](https://img.shields.io/circleci/project/github/etalab/data-codes-sources-fr.svg?style=flat-square)](https://circleci.com/gh/etalab/data-codes-sources-fr)
-[![Software License](https://img.shields.io/badge/Licence-MIT%2C%20Licence%20Ouverte-orange.svg?style=flat-square)](https://github.com/etalab/data-codes-sources-fr/blob/master/LICENSE.md)
+[![Software License](https://img.shields.io/badge/Licence-MIT%2C%20Licence%20Ouverte-orange.svg?style=flat-square)](https://git.sr.ht/~etalab/codegouvfr-fetch-data/blob/master/LICENSE.md)
+
 [![goodtables.io](https://goodtables.io/badge/github/etalab/data-codes-sources-fr.svg)](https://goodtables.io/github/etalab/data-codes-sources-fr)
 
-# But du dépôt
+# Ce que fait codegouvfr-fetch-data
 
 Le but de ce dépôt est de :
 
 - collecter des métadonnées concernant les dépôts publiés par les comptes d'organisation d'organismes publics ;
 - donner de la visibilité à l'ensemble de ces comptes.
 
-Ne sont pour l'instant traités que les comptes présents sur GitHub et
-les forges GitLab.
+Ne sont pour l'instant traités que les comptes présents sur GitHub et les forges GitLab.
 
-Pour ajouter le compte d'organisation de votre organisme, vous pouvez proposer de modifier [le fichier](https://github.com/DISIC/politique-de-contribution-open-source/blob/master/comptes-organismes-publics) pertinent dans le dépôt de la DINSIC relatif à la Politique de Contribution Open Source de l'État.
-
-## Déploiement et hébergement
-
-Les données sont mises à jour régulièrement [grâce à CircleCI](https://circleci.com/gh/etalab/data-codes-sources-fr).
+Pour ajouter le compte d'organisation de votre organisme, vous pouvez proposer de modifier [le fichier](https://git.sr.ht/~etalab/codegouvfr-sources/blob/master/comptes-organismes-publics).
 
 ## Données
 
