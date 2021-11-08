@@ -15,7 +15,8 @@ Pour ajouter le compte d'organisation de votre organisme, vous pouvez proposer d
 
 [![goodtables.io](https://goodtables.io/badge/github/etalab/data-codes-sources-fr.svg)](https://goodtables.io/github/etalab/data-codes-sources-fr)
 
-Les données sont publiées aux formats CSV et JSON dans le dossier [data](data). Chaque dossier contient un fichier `all.{csv,json}` qui contient l'ensemble des répertoires ou des organisations. Ces fichiers sont à privilégier lorsque vous souhaitez faire une analyse globale.
+- La liste des organisations en [csv](/data/organizations/csv/all.csv) et [json](/data/organizations/json/all.json)
+- La liste des dépôts en [csv](/data/repositories/csv/all.csv) et [json](/data/repositories/json/all.json)
 
 ## Description des données
 
