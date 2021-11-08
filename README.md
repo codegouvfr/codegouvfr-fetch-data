@@ -20,7 +20,7 @@ Pour ajouter le compte d'organisation de votre organisme, vous pouvez proposer d
 
 ## Description des données
 
-Les données sont décrites à l'aide de fichiers [Table Schema](https://frictionlessdata.io/specs/table-schema/) dans [le dossier schemas](./schemas/)
+Les données sont décrites à l'aide de fichiers [Table Schema](https://frictionlessdata.io/specs/table-schema/) dans [le dossier schemas](./schemas/).
 
 ### Métadonnées d'un répertoire Git
 
