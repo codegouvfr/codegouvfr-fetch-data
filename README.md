@@ -3,10 +3,11 @@
 # Ce que fait codegouvfr-fetch-data
 
 Le but de ce dépôt est de collecter des métadonnées sur les comptes
-d'organisation publics et les dépôts qu'ils publient.
+d'organisation gérés par les organismes publics et sur les dépôts de
+code source que ces organimes publient.
 
-Ne sont pour l'instant traités que les comptes présents sur GitHub et
-les forges GitLab.
+Ne sont pour l'instant traités que les comptes présents sur les
+plateformes github.com, gitlab.com et les forges locales GitLab.
 
 Pour ajouter le compte d'organisation de votre organisme, voir [ce
 fichier](https://git.sr.ht/~etalab/codegouvfr-sources/blob/master/comptes-organismes-publics)
