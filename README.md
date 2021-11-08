@@ -1,4 +1,4 @@
-[![Software License](https://img.shields.io/badge/Licence-MIT-orange.svg?style=flat-square)](https://git.sr.ht/~etalab/codegouvfr-fetch-data/tree/master/item/LICENSE.md)
+[![Software License](https://img.shields.io/badge/Licence-MIT-orange.svg?style=flat-square)](https://git.sr.ht/~etalab/codegouvfr-fetch-data/tree/master/item/LICENSE.md) [![goodtables.io](https://goodtables.io/badge/github/etalab/data-codes-sources-fr.svg)](https://goodtables.io/github/etalab/data-codes-sources-fr)
 
 # Ce que fait codegouvfr-fetch-data
 
@@ -14,8 +14,6 @@ fichier](https://git.sr.ht/~etalab/codegouvfr-sources/blob/master/comptes-organi
 ou envoyer un mail à [logiciels-libres@data.gouv.fr](mailto:logiciels-libres@data.gouv.fr).
 
 ## Données
-
-[![goodtables.io](https://goodtables.io/badge/github/etalab/data-codes-sources-fr.svg)](https://goodtables.io/github/etalab/data-codes-sources-fr)
 
 - La liste des organisations en [csv](/data/organizations/csv/all.csv) et [json](/data/organizations/json/all.json)
 - La liste des dépôts en [csv](/data/repositories/csv/all.csv) et [json](/data/repositories/json/all.json)
