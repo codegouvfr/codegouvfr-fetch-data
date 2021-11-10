@@ -15,8 +15,8 @@ ou envoyer un mail à [logiciels-libres@data.gouv.fr](mailto:logiciels-libres@da
 
 ## Données
 
-- La liste des organisations en [csv](/data/organizations/csv/all.csv) et [json](/data/organizations/json/all.json)
-- La liste des dépôts en [csv](/data/repositories/csv/all.csv) et [json](/data/repositories/json/all.json)
+- La liste des organisations en [csv](https://code.gouv.fr/data/organizations/csv/all.csv) et [json](https://code.gouv.fr/data/organizations/json/all.json)
+- La liste des dépôts en [csv](https://code.gouv.fr//data/repositories/csv/all.csv) et [json](https://code.gouv.fr/data/repositories/json/all.json)
 
 ## Description des données
 
