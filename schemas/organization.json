@@ -1,9 +1,10 @@
 {
    "title":"Métadonnées d'une organisation Git",
    "author":"Antoine Augusti pour Etalab <antoine.augusti@data.gouv.fr>",
+   "maintainer":"Pôle logiciels libres d'Etalab <logiciels-libres@data.gouv.fr>",
    "created":"2018-12-31",
-   "updated":"2021-10-23",
-   "homepage":"https://github.com/etalab/data-codes-sources-fr",
+   "updated":"2021-11-09",
+   "homepage":"https://git.sr.ht/~etalab/codegouvfr-fetch-data",
    "fields":[
       {
          "name":"login",
