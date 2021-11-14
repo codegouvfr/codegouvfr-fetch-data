@@ -54,7 +54,7 @@ for organization in organizations:
 save_orgs(all_orgs)
 
 # Save libraries created by each org
-all_packs = []
+all_libs = []
 
 print("Fetching libraries from librairies.io")
 libraries = fetch_libraries(all_orgs)

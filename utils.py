@@ -54,11 +54,11 @@ def fetch_library(org):
 
 def fetch_libraries(orgs):
     json_orgs = json.loads(json.dumps(orgs))
-    all_packs = defaultdict(list)
+    all_libs = defaultdict(list)
     for k,v in enumerate(json_orgs["login"]):
         if json_orgs["platform"][k] == "GitHub":
             time.sleep(1)
             libraries = fetch_library(v)
             for key in libraries:
-                all_packs[key].extend(libraries[key])
-    return all_packs
+                all_libs[key].extend(libraries[key])
+    return all_libs
