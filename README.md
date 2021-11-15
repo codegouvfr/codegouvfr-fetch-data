@@ -5,14 +5,11 @@ organizational accounts or GitLab groups from the French public sector
 and on the repositories published through these accounts.
 
 For now we only collect data from github.com, gitlab.com et local
-GitLab instances.  **If you can help collecting data from other
-sources (e.g. SourceHut, BitBucket, gogs, gitea, cgit, etc.)**, please
-go ahead and [send us an email](mailto:logiciels-libres@data.gouv.fr).
+GitLab instances.
 
-To add an organizational account, see [this
-file](https://git.sr.ht/~etalab/codegouvfr-sources/blob/master/comptes-organismes-publics)
-and drop an email to
-[logiciels-libres@data.gouv.fr](mailto:logiciels-libres@data.gouv.fr).
+**Can you help collecting data from other sources (e.g. SourceHut,
+BitBucket, gogs, gitea, cgit, etc.)?**  If so, please go ahead and
+[send us an email](mailto:logiciels-libres@data.gouv.fr).
 
 ## Get the data
 
