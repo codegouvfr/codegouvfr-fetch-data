@@ -8,8 +8,10 @@ For now we only collect data from github.com, gitlab.com et local
 GitLab instances.
 
 **Can you help collecting data from other sources (e.g. SourceHut,
-BitBucket, gogs, gitea, cgit, etc.)?**  If so, please go ahead and
-[send us an email](mailto:logiciels-libres@data.gouv.fr).
+BitBucket, gogs, gitea, cgit, etc.)?**  
+
+If so, thanks in advance!  Feel free to [send us an
+email](mailto:logiciels-libres@data.gouv.fr) explaining your plans.
 
 ## Get the data
 
