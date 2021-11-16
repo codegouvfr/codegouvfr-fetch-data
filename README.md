@@ -1,22 +1,31 @@
 [![Software License](https://img.shields.io/badge/Licence-MIT-orange.svg?style=flat-square)](https://git.sr.ht/~etalab/codegouvfr-fetch-data/tree/master/item/LICENSE.md) [![goodtables.io](https://goodtables.io/badge/github/etalab/data-codes-sources-fr.svg)](https://goodtables.io/github/etalab/data-codes-sources-fr)
 
-The purpose of this repository is to collect metadata on GitHub
-organizational accounts or GitLab groups from the French public sector
-and on the repositories published through these accounts.
+This code collects data from github.com, gitlab.com and GitLab
+instances about accounts (organizations or groups) and repositories
+hosted on these accounts.
 
-For now we only collect data from github.com, gitlab.com et local
-GitLab instances.
+For example, given [this
+list](https://git.sr.ht/~etalab/codegouvfr-sources/tree/master/item/comptes-organismes-publics)
+of account URLs and [this
+csv](https://git.sr.ht/~etalab/codegouvfr-sources/tree/master/item/comptes-organismes-publics)
+of supported platforms, we collect the data we need for
+[code.gouv.fr](https://code.gouv.fr).
 
-**Can you help collecting data from other sources (e.g. SourceHut,
-BitBucket, gogs, gitea, cgit, etc.)?**  
+## TODO
 
-If so, thanks in advance!  Feel free to [send us an
-email](mailto:logiciels-libres@data.gouv.fr) explaining your plans.
+We aim at collecting data from more forges:
 
-## Get the data
+- [SourceHut](https://sourcehut.org)
+- [BitBucket](https://bitbucket.org)
+- [Gogs](https://gogs.io) or [Gitea](https://gitea.io) instances
 
-- Organizations data as [csv](https://code.gouv.fr/data/organizations/csv/all.csv) and [json](https://code.gouv.fr/data/organizations/json/all.json)
-- Repositories data as [csv](https://code.gouv.fr//data/repositories/csv/all.csv) and [json](https://code.gouv.fr/data/repositories/json/all.json)
+SourceHut is our priority because [Etalab](https://sr.ht/~etalab/)
+hosts some of its source code here.
+
+If you are familiar with SourceHut GraphQL APIs and can help with
+contributing, feel free to send a patch to
+[~etalab/codegouvfr-devel@lists.sr.ht](mailto:~etalab/codegouvfr-devel@lists.sr.ht)
+or to [reach us](mailto:logiciels-libres@data.gouv.fr) directly.
 
 ## Data models
 
@@ -24,12 +33,17 @@ We use [Table Schema
 files](https://frictionlessdata.io/specs/table-schema/) in [the
 schemas/ directory](./schemas/) to describe the data.
 
+## Get the data
+
+- Organizations data as [csv](https://code.gouv.fr/data/organizations/csv/all.csv) and [json](https://code.gouv.fr/data/organizations/json/all.json)
+- Repositories data as [csv](https://code.gouv.fr//data/repositories/csv/all.csv) and [json](https://code.gouv.fr/data/repositories/json/all.json)
+
 # Contributing
 
 Contributions are welcome!
 
-To report bugs or ideas, please write to the *public* mailing list
-[~etalab/logiciels-libres@lists.sr.ht](mailto:~etalab/logiciels-libres@lists.sr.ht).
+To send bug reports, patches or to share ideas, please write to the
+*public* mailing list: [~etalab/codegouvfr-devel@lists.sr.ht](mailto:~etalab/codegouvfr-devel@lists.sr.ht)
 
 # License
 
