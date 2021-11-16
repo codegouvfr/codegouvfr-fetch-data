@@ -32,8 +32,9 @@ or to [reach us](mailto:logiciels-libres@data.gouv.fr) directly.
 # Data models
 
 We use [Table Schema
-files](https://frictionlessdata.io/specs/table-schema/) in [the
-schemas/ directory](./schemas/) to describe the data.
+files](https://frictionlessdata.io/specs/table-schema/).
+
+Please refer to [the schema files in this directory](./schemas/).
 
 ## Get the data
 
