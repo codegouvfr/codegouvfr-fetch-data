@@ -1,17 +1,19 @@
 [![Software License](https://img.shields.io/badge/Licence-MIT-orange.svg?style=flat-square)](https://git.sr.ht/~etalab/codegouvfr-fetch-data/tree/master/item/LICENSE.md) [![goodtables.io](https://goodtables.io/badge/github/etalab/data-codes-sources-fr.svg)](https://goodtables.io/github/etalab/data-codes-sources-fr)
 
-This code collects data from github.com, gitlab.com and GitLab
-instances about accounts (organizations or groups) and repositories
-hosted on these accounts.
+# Presentation
+
+The code in this repository collects data from forges (github.com,
+gitlab.com and GitLab instances) about *accounts* (GitHub
+organizations or GitLab groups) and their *repositories*.
 
 For example, given [this
 list](https://git.sr.ht/~etalab/codegouvfr-sources/tree/master/item/comptes-organismes-publics)
 of account URLs and [this
-csv](https://git.sr.ht/~etalab/codegouvfr-sources/tree/master/item/comptes-organismes-publics)
+csv](https://git.sr.ht/~etalab/codegouvfr-fetch-data/tree/master/item/platforms.csv)
 of supported platforms, we collect the data we need for
 [code.gouv.fr](https://code.gouv.fr).
 
-## TODO
+## Todo
 
 We aim at collecting data from more forges:
 
@@ -27,7 +29,7 @@ contributing, feel free to send a patch to
 [~etalab/codegouvfr-devel@lists.sr.ht](mailto:~etalab/codegouvfr-devel@lists.sr.ht)
 or to [reach us](mailto:logiciels-libres@data.gouv.fr) directly.
 
-## Data models
+# Data models
 
 We use [Table Schema
 files](https://frictionlessdata.io/specs/table-schema/) in [the
