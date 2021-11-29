@@ -13,6 +13,20 @@ csv](https://git.sr.ht/~etalab/codegouvfr-fetch-data/tree/master/item/platforms.
 of supported platforms, we collect the data we need for
 [code.gouv.fr](https://code.gouv.fr).
 
+# Installation and configuration
+
+1. Clone this repository: `git clone https://git.sr.ht/~etalab/codegouvfr-fetch-data && cd codegouvfr-fetch-data`
+2. Install Python dependencies: `pip install -r requirements.txt`
+3. [Create a GitHub Token](https://docs.github.com/en/authentication/keeping-your-account-and-data-secure/creating-a-personal-access-token)
+4. Create an account on [libraries.io](https://libraries.io/) and create an API key on your [account page](https://libraries.io/account).
+5. Set the following environment variables: GITHUB_TOKEN and LIBRARIESIO_API_KEY. Ex: `export GITHUB_TOKEN="your github token" ; export LIBRARIESIO_API_KEY="your libraries.io api key"`
+6. Create the folders that will receive the output data: `mkdir -p data/organizations/csv && mkdir -p data/organizations/json && mkdir -p data/repositories/csv && mkdir -p data/repositories/json && mkdir -p data/libraries/csv && mkdir -p data/libraries/json`
+7. Check the content of the `platforms.csv` file and update its content if needed.
+
+# Generate JSON and CSV files
+
+Launch the script with `python fetch.py`. The output files will be available in the subfolders of `data`.
+
 ## Todo
 
 We aim at collecting data from more forges:
