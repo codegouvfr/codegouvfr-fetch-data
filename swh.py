@@ -29,8 +29,8 @@ class SwhExists(object):
             print('data folder exist')
         else:
             print('data folder does not exist')
-            return 
-        
+            return
+
         with open(self.SWH_FILE) as f:
             reader = csv.DictReader(f)
             for row in reader:
@@ -48,8 +48,8 @@ class SwhExists(object):
             print('data folder exist')
         else:
             print('data folder does not exist')
-            return 
-        
+            return
+
         with open(self.SWH_FILE, "w") as f:
             writer = csv.DictWriter(f, fieldnames=["origin_url", "is_available"])
 
