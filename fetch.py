@@ -2,6 +2,7 @@ from collections import defaultdict
 from io import BytesIO
 from urllib.request import urlopen
 import yaml
+import os
 
 from platforms import Detector as PlatformDetector
 from storage import save_repos, save_orgs, save_libraries
@@ -11,7 +12,7 @@ def fetch_orgs(detector):
     organizations = []
 
     resp = urlopen(
-        "https://git.sr.ht/~etalab/codegouvfr-sources/blob/test-yaml/comptes-organismes-publics-yaml"
+        os.getenv("ORGAS_LIST_URL") or "https://git.sr.ht/~etalab/codegouvfr-sources/blob/test-yaml/comptes-organismes-publics-yaml"
     )
     data = resp.read()
 
