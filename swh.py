@@ -1,4 +1,4 @@
-import csv
+import csv, os
 from random import randint
 from distutils.util import strtobool
 
@@ -25,6 +25,12 @@ class SwhExists(object):
 
     def load_data(self):
         self.data = {}
+        if "data" in os.listdir("."):
+            print('data folder exist')
+        else:
+            print('data folder does not exist')
+            return 
+        
         with open(self.SWH_FILE) as f:
             reader = csv.DictReader(f)
             for row in reader:
@@ -38,6 +44,12 @@ class SwhExists(object):
         return bool(strtobool(value))
 
     def save_data(self):
+        if "data" in os.listdir("."):
+            print('data folder exist')
+        else:
+            print('data folder does not exist')
+            return 
+        
         with open(self.SWH_FILE, "w") as f:
             writer = csv.DictWriter(f, fieldnames=["origin_url", "is_available"])
 

@@ -1,1 +1,4 @@
 *org
+.venv
+__pycache__
+.vscode
