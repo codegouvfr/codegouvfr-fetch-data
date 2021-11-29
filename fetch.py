@@ -1,6 +1,7 @@
 from collections import defaultdict
 from io import BytesIO
 from urllib.request import urlopen
+import yaml
 
 from platforms import Detector as PlatformDetector
 from storage import save_repos, save_orgs, save_libraries
@@ -10,14 +11,19 @@ def fetch_orgs(detector):
     organizations = []
 
     resp = urlopen(
-        "https://git.sr.ht/~etalab/codegouvfr-sources/blob/master/comptes-organismes-publics"
+        "https://git.sr.ht/~etalab/codegouvfr-sources/blob/test-yaml/comptes-organismes-publics-yaml"
     )
-    data = BytesIO(resp.read())
-    data = set([l.lower().decode("utf-8").strip() for l in data])
+    data = resp.read()
 
-    for line in data:
+    try:
+        data = yaml.safe_load(data)
+    except yaml.YAMLError as exc:
+        print('YAMLError parsing error',exc)
+        return 'error'
+
+    for org in data:
         try:
-            organizations.extend(detector.to_orgs(line))
+            organizations.extend(detector.to_orgs(org))
         except Exception as e:
             print(e)
 
