@@ -25,13 +25,13 @@ def filename(mode, extension):
 
 def save_data(data, mode):
     # Save in CSV
-    with open(filename(mode, "csv"), "w") as f:
+    with open(filename(mode, "csv"), "w", encoding="utf-8") as f:
         w = csv.writer(f)
         w.writerow(data.keys())
         w.writerows(set(zip(*data.values())))
 
     # Save in JSON
-    with open(filename(mode, "json"), "w") as f:
+    with open(filename(mode, "json"), "w", encoding="utf-8") as f:
         data = [dict(zip(data.keys(), i)) for i in set(zip(*data.values()))]
         if mode == "org" and len(data) == 1:
             data = data[0]
