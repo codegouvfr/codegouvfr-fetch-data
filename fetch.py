@@ -12,7 +12,7 @@ def fetch_orgs(detector):
     organizations = []
 
     resp = urlopen(
-        os.getenv("ORGAS_LIST_URL") or "https://git.sr.ht/~etalab/codegouvfr-sources/blob/test-yaml/comptes-organismes-publics-yaml"
+        os.getenv("ORGAS_LIST_URL") or "https://git.sr.ht/~etalab/codegouvfr-sources/blob/master/comptes-organismes-publics.yml"
     )
     data = resp.read()
 
