@@ -10,7 +10,7 @@ Ne sont pour l'instant traités que les comptes présents sur les
 plateformes github.com, gitlab.com et les forges locales GitLab.
 
 Pour ajouter le compte d'organisation de votre organisme, voir [ce
-fichier](https://git.sr.ht/~etalab/codegouvfr-sources/blob/master/comptes-organismes-publics)
+fichier](https://git.sr.ht/~etalab/codegouvfr-sources/blob/master/comptes-organismes-publics.yml)
 ou envoyer un mail à [logiciels-libres@data.gouv.fr](mailto:logiciels-libres@data.gouv.fr).
 
 ## Données

@@ -7,7 +7,7 @@ gitlab.com and GitLab instances) about *accounts* (GitHub
 organizations or GitLab groups) and their *repositories*.
 
 For example, given [this
-list](https://git.sr.ht/~etalab/codegouvfr-sources/tree/master/item/comptes-organismes-publics)
+list](https://git.sr.ht/~etalab/codegouvfr-sources/tree/master/item/comptes-organismes-publics.yml)
 of account URLs and [this
 csv](https://git.sr.ht/~etalab/codegouvfr-fetch-data/tree/master/item/platforms.csv)
 of supported platforms, we collect the data we need for
