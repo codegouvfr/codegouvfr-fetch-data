@@ -1,6 +1,6 @@
 {
-   "title":"Métadonnées d'une organisation Git",
-   "author":"Antoine Augusti pour Etalab <antoine.augusti@data.gouv.fr>",
+   "title":"Metadata of a Git organization",
+   "author":"Antoine Augusti - Etalab/DINUM <antoine.augusti@data.gouv.fr>",
    "maintainer":"Pôle logiciels libres d'Etalab <logiciels-libres@data.gouv.fr>",
    "created":"2018-12-31",
    "updated":"2021-11-09",
@@ -8,7 +8,7 @@
    "fields":[
       {
          "name":"login",
-         "description":"Le pseudo de l'organisation",
+         "description":"Organization identifier",
          "example":"Etalab",
          "type":"string",
          "constraints": {
@@ -17,7 +17,7 @@
       },
       {
          "name":"description",
-         "description":"La description de l'organisation",
+         "description":"Organization description",
          "example":"Observatoire accidentologie plaisance et loisirs nautiques France",
          "type":"string",
          "constraints": {
@@ -26,7 +26,7 @@
       },
       {
          "name":"name",
-         "description":"Le nom complet de l'organisation",
+         "description":"Organization full name",
          "example":"Ministère de l'Intérieur",
          "type":"string",
          "constraints": {
@@ -35,7 +35,7 @@
       },
       {
          "name":"organization_url",
-         "description":"URL vers l'organisation",
+         "description":"URL of the organization",
          "example":"https://github.com/etalab",
          "type":"string",
          "format": "uri",
@@ -45,7 +45,7 @@
       },
       {
          "name":"avatar_url",
-         "description":"URL vers l'avatar de l'organisation",
+         "description":"URL of the organization avatar",
          "example":"https://avatars1.githubusercontent.com/u/5313610?v=4",
          "type":"string",
          "format": "uri",
@@ -55,7 +55,7 @@
       },
       {
          "name":"website",
-         "description":"Site web de l'organisation",
+         "description":"Organization website",
          "example":"https://etalab.gouv.fr",
          "type":"string",
          "format": "uri",
@@ -65,7 +65,7 @@
       },
       {
          "name":"location",
-         "description":"Adresse physique de l'organisation",
+         "description":"Geographical location of the organization",
          "example":"Paris, France",
          "type":"string",
          "constraints": {
@@ -74,7 +74,7 @@
       },
       {
          "name":"email",
-         "description":"Adresse e-mail de contact de l'organisation",
+         "description":"Email address of the organization contact",
          "example":"contact@etalab.gouv.fr",
          "type":"string",
          "format":"email",
@@ -84,7 +84,7 @@
       },
       {
          "name":"is_verified",
-         "description":"Indique si l'organisation a prouvé qu'elle détenait les noms de domaines associés à son organisation",
+         "description":"Whether the organization proved it owns the declared domain names",
          "example":"true",
          "type":"boolean",
          "constraints": {
@@ -93,7 +93,7 @@
       },
       {
          "name":"repositories_count",
-         "description":"Le nombre de répertoires publics de l'organisation",
+         "description":"Number of public repositories for the organization",
          "example":42,
          "type":"integer",
          "constraints": {
@@ -103,7 +103,7 @@
       },
       {
          "name":"creation_date",
-         "description":"La date de création de l'organisation",
+         "description":"Creation date of the organization",
          "example":"2013-08-26T16:03:40Z",
          "type":"datetime",
          "constraints": {
@@ -112,7 +112,7 @@
       },
       {
          "name":"platform",
-         "description":"La plateforme utilisée de l'organisation",
+         "description":"Platform used by the organization",
          "example":"GitHub",
          "type":"string",
          "constraints": {
