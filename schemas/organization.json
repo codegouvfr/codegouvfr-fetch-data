@@ -1,128 +1,128 @@
 {
-   "title":"Metadata of a Git organization",
-   "author":"Antoine Augusti - Etalab/DINUM <antoine.augusti@data.gouv.fr>",
-   "maintainer":"Pôle logiciels libres d'Etalab <logiciels-libres@data.gouv.fr>",
-   "created":"2018-12-31",
-   "updated":"2021-12-06",
-   "homepage":"https://git.sr.ht/~etalab/codegouvfr-fetch-data",
-   "fields":[
-      {
-         "name":"login",
-         "description":"Organization identifier",
-         "example":"Etalab",
-         "type":"string",
-         "constraints": {
+    "title":"Metadata of a Git organization",
+    "author":"Antoine Augusti - Etalab/DINUM <antoine.augusti@data.gouv.fr>",
+    "maintainer":"Pôle logiciels libres d'Etalab <logiciels-libres@data.gouv.fr>",
+    "created":"2018-12-31",
+    "updated":"2021-12-06",
+    "homepage":"https://git.sr.ht/~etalab/codegouvfr-fetch-data",
+    "fields":[
+	{
+        "name":"login",
+        "description":"Organization identifier",
+        "example":"Etalab",
+        "type":"string",
+        "constraints": {
             "required": true
-         }
-      },
-      {
-         "name":"description",
-         "description":"Organization description",
-         "example":"Observatoire accidentologie plaisance et loisirs nautiques France",
-         "type":"string",
-         "constraints": {
+        }
+    },
+	{
+        "name":"description",
+        "description":"Organization description",
+        "example":"Observatoire accidentologie plaisance et loisirs nautiques France",
+        "type":"string",
+        "constraints": {
             "required": false
-         }
-      },
-      {
-         "name":"name",
-         "description":"Organization full name",
-         "example":"Ministère de l'Intérieur",
-         "type":"string",
-         "constraints": {
+        }
+    },
+	{
+        "name":"name",
+        "description":"Organization full name",
+        "example":"Ministère de l'Intérieur",
+        "type":"string",
+        "constraints": {
             "required": false
-         }
-      },
-      {
-         "name":"organization_url",
-         "description":"URL of the organization",
-         "example":"https://github.com/etalab",
-         "type":"string",
-         "format": "uri",
-         "constraints": {
+        }
+    },
+	{
+        "name":"organization_url",
+        "description":"URL of the organization",
+        "example":"https://github.com/etalab",
+        "type":"string",
+        "format": "uri",
+        "constraints": {
             "required": true
-         }
-      },
-      {
-         "name":"avatar_url",
-         "description":"URL of the organization avatar",
-         "example":"https://avatars1.githubusercontent.com/u/5313610?v=4",
-         "type":"string",
-         "format": "uri",
-         "constraints": {
+        }
+    },
+	{
+        "name":"avatar_url",
+        "description":"URL of the organization avatar",
+        "example":"https://avatars1.githubusercontent.com/u/5313610?v=4",
+        "type":"string",
+        "format": "uri",
+        "constraints": {
             "required": false
-         }
-      },
-      {
-         "name":"website",
-         "description":"Organization website",
-         "example":"https://etalab.gouv.fr",
-         "type":"string",
-         "format": "uri",
-         "constraints": {
+        }
+    },
+	{
+        "name":"website",
+        "description":"Organization website",
+        "example":"https://etalab.gouv.fr",
+        "type":"string",
+        "format": "uri",
+        "constraints": {
             "required": false
-         }
-      },
-      {
-         "name":"location",
-         "description":"Geographical location of the organization",
-         "example":"Paris, France",
-         "type":"string",
-         "constraints": {
+        }
+    },
+	{
+        "name":"location",
+        "description":"Geographical location of the organization",
+        "example":"Paris, France",
+        "type":"string",
+        "constraints": {
             "required": false
-         }
-      },
-      {
-         "name":"email",
-         "description":"Email address of the organization contact",
-         "example":"contact@etalab.gouv.fr",
-         "type":"string",
-         "format":"email",
-         "constraints": {
+        }
+    },
+	{
+        "name":"email",
+        "description":"Email address of the organization contact",
+        "example":"contact@etalab.gouv.fr",
+        "type":"string",
+        "format":"email",
+        "constraints": {
             "required": false
-         }
-      },
-      {
-         "name":"is_verified",
-         "description":"Whether the organization proved it owns the declared domain names",
-         "example":"true",
-         "type":"boolean",
-         "constraints": {
+        }
+    },
+	{
+        "name":"is_verified",
+        "description":"Whether the organization proved it owns the declared domain names",
+        "example":"true",
+        "type":"boolean",
+        "constraints": {
             "required": false
-         }
-      },
-      {
-         "name":"repositories_count",
-         "description":"Number of public repositories for the organization",
-         "example":42,
-         "type":"integer",
-         "constraints": {
+        }
+    },
+	{
+        "name":"repositories_count",
+        "description":"Number of public repositories for the organization",
+        "example":42,
+        "type":"integer",
+        "constraints": {
             "required": true,
             "minimum": 0
-         }
-      },
-      {
-         "name":"creation_date",
-         "description":"Creation date of the organization",
-         "example":"2013-08-26T16:03:40Z",
-         "type":"datetime",
-         "constraints": {
+        }
+    },
+	{
+        "name":"creation_date",
+        "description":"Creation date of the organization",
+        "example":"2013-08-26T16:03:40Z",
+        "type":"datetime",
+        "constraints": {
             "required": false
-         }
-      },
-      {
-         "name":"platform",
-         "description":"Platform used by the organization",
-         "example":"GitHub",
-         "type":"string",
-         "constraints": {
+        }
+    },
+	{
+        "name":"platform",
+        "description":"Platform used by the organization",
+        "example":"GitHub",
+        "type":"string",
+        "constraints": {
             "required": true,
             "enum":[
-               "GitHub",
-               "GitLab"
+		"GitHub",
+		"GitLab"
             ]
-         }
-      }
-   ],
-   "primaryKey":"organization_url"
+        }
+    }
+    ],
+    "primaryKey":"organization_url"
 }

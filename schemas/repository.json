@@ -1,194 +1,194 @@
 {
-   "title":"Metadata of a Git repository",
-   "author":"Antoine Augusti - Etalab/DINUM <antoine.augusti@data.gouv.fr>",
-   "maintainer":"Pôle logiciels libres d'Etalab <logiciels-libres@data.gouv.fr>",
-   "created":"2018-12-31",
-   "updated":"2021-12-06",
-   "homepage":"https://git.sr.ht/~etalab/codegouvfr-fetch-data",
-   "fields":[
-      {
-         "name":"name",
-         "description":"Repository name",
-         "example": "nom-repertoire",
-         "type":"string",
-         "constraints": {
+    "title":"Metadata of a Git repository",
+    "author":"Antoine Augusti - Etalab/DINUM <antoine.augusti@data.gouv.fr>",
+    "maintainer":"Pôle logiciels libres d'Etalab <logiciels-libres@data.gouv.fr>",
+    "created":"2018-12-31",
+    "updated":"2021-12-06",
+    "homepage":"https://git.sr.ht/~etalab/codegouvfr-fetch-data",
+    "fields":[
+	{
+        "name":"name",
+        "description":"Repository name",
+        "example": "nom-repertoire",
+        "type":"string",
+        "constraints": {
             "required": true
-         }
-      },
-      {
-         "name":"organization_name",
-         "description":"Organization name",
-         "example": "etalab",
-         "type":"string",
-         "constraints": {
+        }
+    },
+	{
+        "name":"organization_name",
+        "description":"Organization name",
+        "example": "etalab",
+        "type":"string",
+        "constraints": {
             "required": true
-         }
-      },
-      {
-         "name":"platform",
-         "description":"Platform for the repository",
-         "example": "GitHub",
-         "type":"string",
-         "constraints": {
+        }
+    },
+	{
+        "name":"platform",
+        "description":"Platform for the repository",
+        "example": "GitHub",
+        "type":"string",
+        "constraints": {
             "required": true,
             "enum":[
-               "GitHub",
-               "GitLab"
+		"GitHub",
+		"GitLab"
             ]
-         }
-      },
-      {
-         "name":"repository_url",
-         "description":"URL of the repository",
-         "example": "https://github.com/etalab/nom-repertoire",
-         "type":"string",
-         "format":"uri",
-         "constraints": {
+        }
+    },
+	{
+        "name":"repository_url",
+        "description":"URL of the repository",
+        "example": "https://github.com/etalab/nom-repertoire",
+        "type":"string",
+        "format":"uri",
+        "constraints": {
             "required": true
-         }
-      },
-      {
-         "name":"description",
-         "description":"Repository description",
-         "example": "Ce répertoire est utile",
-         "type":"string",
-         "constraints": {
+        }
+    },
+	{
+        "name":"description",
+        "description":"Repository description",
+        "example": "Ce répertoire est utile",
+        "type":"string",
+        "constraints": {
             "required": false
-         }
-      },
-      {
-         "name":"is_fork",
-         "description":"Whether the repository is a fork",
-         "example": "false",
-         "type":"boolean",
-         "constraints": {
+        }
+    },
+	{
+        "name":"is_fork",
+        "description":"Whether the repository is a fork",
+        "example": "false",
+        "type":"boolean",
+        "constraints": {
             "required": false
-         }
-      },
-      {
-         "name":"is_archived",
-         "description":"Whether the repository is archived, i.e. read-only",
-         "example": "false",
-         "type":"boolean",
-         "constraints": {
+        }
+    },
+	{
+        "name":"is_archived",
+        "description":"Whether the repository is archived, i.e. read-only",
+        "example": "false",
+        "type":"boolean",
+        "constraints": {
             "required": true
-         }
-      },
-      {
-         "name":"creation_date",
-         "description":"Creation date of the repository",
-         "example": "2018-12-01T20:00:55Z",
-         "type":"datetime",
-         "constraints": {
+        }
+    },
+	{
+        "name":"creation_date",
+        "description":"Creation date of the repository",
+        "example": "2018-12-01T20:00:55Z",
+        "type":"datetime",
+        "constraints": {
             "required": true
-         }
-      },
-      {
-         "name":"last_update",
-         "description":"Repository last update date: updates can affect code but also metadata, activity on issues or pull requests",
-         "example": "2018-12-01T20:00:55Z",
-         "type":"datetime",
-         "constraints": {
+        }
+    },
+	{
+        "name":"last_update",
+        "description":"Repository last update date: updates can affect code but also metadata, activity on issues or pull requests",
+        "example": "2018-12-01T20:00:55Z",
+        "type":"datetime",
+        "constraints": {
             "required": true
-         }
-      },
-      {
-         "name":"last_modification",
-         "description":"Repository last modification date, commit-wise",
-         "example": "2018-12-01T20:00:55Z",
-         "type":"datetime",
-         "constraints": {
+        }
+    },
+	{
+        "name":"last_modification",
+        "description":"Repository last modification date, commit-wise",
+        "example": "2018-12-01T20:00:55Z",
+        "type":"datetime",
+        "constraints": {
             "required": true
-         }
-      },
-      {
-         "name":"homepage",
-         "description":"URL of the project's homepage",
-         "example": "https://etalab.gouv.fr",
-         "type":"string",
-         "constraints": {
+        }
+    },
+	{
+        "name":"homepage",
+        "description":"URL of the project's homepage",
+        "example": "https://etalab.gouv.fr",
+        "type":"string",
+        "constraints": {
             "required": false
-         }
-      },
-      {
-         "name":"stars_count",
-         "description":"How many times the repository has been fav'ed",
-         "example": 42,
-         "type":"integer",
-         "constraints": {
+        }
+    },
+	{
+        "name":"stars_count",
+        "description":"How many times the repository has been fav'ed",
+        "example": 42,
+        "type":"integer",
+        "constraints": {
             "minimum": 0,
             "required": true
-         }
-      },
-      {
-         "name":"forks_count",
-         "description":"How many times the repository has been forked",
-         "example": 13,
-         "type":"integer",
-         "constraints": {
+        }
+    },
+	{
+        "name":"forks_count",
+        "description":"How many times the repository has been forked",
+        "example": 13,
+        "type":"integer",
+        "constraints": {
             "minimum": 0,
             "required": true
-         }
-      },
-      {
-         "name":"license",
-         "description":"Repository license, as reported by the platform",
-         "example": "MIT",
-         "type":"string",
-         "constraints": {
+        }
+    },
+	{
+        "name":"license",
+        "description":"Repository license, as reported by the platform",
+        "example": "MIT",
+        "type":"string",
+        "constraints": {
             "required": false
-         }
-      },
-      {
-         "name":"open_issues_count",
-         "description":"Number of open issues",
-         "example": "0",
-         "type":"integer",
-         "constraints": {
+        }
+    },
+	{
+        "name":"open_issues_count",
+        "description":"Number of open issues",
+        "example": "0",
+        "type":"integer",
+        "constraints": {
             "required": true,
             "minimum": 0
-         }
-      },
-      {
-         "name":"language",
-         "description":"Repository main programming language, as reported by the platform",
-         "example": "Python",
-         "type":"string",
-         "constraints": {
+        }
+    },
+	{
+        "name":"language",
+        "description":"Repository main programming language, as reported by the platform",
+        "example": "Python",
+        "type":"string",
+        "constraints": {
             "required": false
-         }
-      },
-      {
-         "name":"topics",
-         "description":"Repository tags",
-         "example": "utile,france,opendata",
-         "type":"string",
-         "constraints": {
+        }
+    },
+	{
+        "name":"topics",
+        "description":"Repository tags",
+        "example": "utile,france,opendata",
+        "type":"string",
+        "constraints": {
             "required": false
-         }
-      },
-      {
-         "name":"software_heritage_exists",
-         "description":"Whether the repository has been archived on Software Heritage",
-         "example": "false",
-         "type":"boolean",
-         "constraints": {
+        }
+    },
+	{
+        "name":"software_heritage_exists",
+        "description":"Whether the repository has been archived on Software Heritage",
+        "example": "false",
+        "type":"boolean",
+        "constraints": {
             "required": false
-         }
-      },
-      {
-         "name":"software_heritage_url",
-         "description":"URL of the Software Heritage web page for this repository",
-         "example": "https://archive.softwareheritage.org/browse/origin/https://github.com/etalab/etalab/directory/",
-         "type":"string",
-         "format":"uri",
-         "constraints": {
+        }
+    },
+	{
+        "name":"software_heritage_url",
+        "description":"URL of the Software Heritage web page for this repository",
+        "example": "https://archive.softwareheritage.org/browse/origin/https://github.com/etalab/etalab/directory/",
+        "type":"string",
+        "format":"uri",
+        "constraints": {
             "required": false
-         }
-      }
-   ],
-   "primaryKey": [
-      "repository_url",
-      "organization_name"
-   ]
+        }
+    }
+    ],
+    "primaryKey": [
+	"repository_url",
+	"organization_name"
+    ]
 }
