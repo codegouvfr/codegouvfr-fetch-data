@@ -1,0 +1,187 @@
+{
+    "title":"Metadata of a library",
+    "author":"Bastien Guerry - Etalab/DINUM <bastien.guerry@data.gouv.fr>",
+    "maintainer":"Pôle logiciels libres d'Etalab <logiciels-libres@data.gouv.fr>",
+    "created":"2022-04-15",
+    "updated":"2022-04-15",
+    "homepage":"https://git.sr.ht/~etalab/codegouvfr-fetch-data",
+    "fields":[
+	{
+        "name":"deprecation_reason",
+        "description":"Deprecation Reason",
+        "example": "None.",
+        "type":"string",
+        "constraints": {
+            "required": false
+        }
+    },
+	{
+        "name":"description",
+        "description":"Library description",
+        "example": "A very simple CSW client",
+        "type":"string",
+        "constraints": {
+            "required": true
+        }
+    },
+	{
+        "name":"name",
+        "description":"Name of this library",
+        "example": "csw-client",
+        "type":"string",
+        "constraints": {
+            "required": true
+        }
+    },
+	{
+        "name":"forks",
+        "description":"Forks of this library",
+        "example": "2",
+        "type":"string",
+        "constraints": {
+            "required": false
+        }
+    },
+	{
+        "name":"homepage",
+        "description":"Homepage of this library",
+        "example": "https://github.com/geodatagouv/csw-client",
+        "type":"string",
+        "format":"uri",
+        "constraints": {
+            "required": false
+        }
+    },
+	{
+        "name":"keywords",
+        "description":"Keywords for this library",
+        "example": "['CSW', 'OGC', 'harvester']",
+        "type":"string",
+        "constraints": {
+            "required": false
+        }
+    },
+	{
+        "name":"language",
+        "description":"JavaScript",
+        "example": "fr",
+        "type":"string",
+        "constraints": {
+            "required": false
+        }
+    },
+	{
+        "name":"stars",
+        "description":"Stars for this library",
+        "example": "11",
+        "type":"string",
+        "constraints": {
+            "required": false
+        }
+    },
+	{
+        "name":"latest_download_url",
+        "description":"Latest download URL for this library",
+        "example":"https://registry.npmjs.org/csw-client/-/csw-client-0.18.3.tgz",
+        "type":"string",
+        "format":"uri",
+        "constraints": {
+            "required": false
+        }
+    },
+	{
+        "name":"latest_stable_release_number",
+        "description":"Latest stable release number for this library",
+        "example": "0.18.3",
+        "type":"string",
+        "constraints": {
+            "required": false
+        }
+    },
+	{
+        "name":"latest_stable_release_published_at",
+        "description":"Latest stable release date for this library",
+        "example": "2019-11-27T13:23:21.443Z",
+        "type":"string",
+        "constraints": {
+            "required": false
+        }
+    },
+	{
+        "name":"license_normalized",
+        "description":"Whether the license is normalized for this library",
+        "example": "False",
+        "type":"string",
+        "constraints": {
+            "required": false
+        }
+    },
+	{
+        "name":"licenses",
+        "description":"License(s) for this library",
+        "example": "MIT",
+        "type":"string",
+        "constraints": {
+            "required": true
+        }
+    },
+	{
+        "name":"normalized_licenses",
+        "description":"Normalized licenses for this library",
+        "example": "['MIT']",
+        "type":"string",
+        "constraints": {
+            "required": false
+        }
+    },
+	{
+        "name":"library_manager_url",
+        "description":"Library URL manager for this library",
+        "example": "",
+        "type":"string",
+        "format":"uri",
+        "constraints": {
+            "required": false
+        }
+    },
+	{
+        "name":"platform",
+        "description":"Platform for this library",
+        "example": "NPM",
+        "type":"string",
+        "constraints": {
+            "required": false
+        }
+    },
+	{
+        "name":"rank",
+        "description":"Rank for this library",
+        "example": "7",
+        "type":"string",
+        "constraints": {
+            "required": false
+        }
+    },
+	{
+        "name":"repository_url",
+        "description":"Repository URL for this library",
+        "example": "https://github.com/geodatagouv/csw-client",
+        "type":"string",
+        "constraints": {
+            "required": true
+        }
+    },
+	{
+        "name":"status",
+        "description":"Status of this library",
+        "example": "None",
+        "type":"string",
+        "constraints": {
+            "required": false
+        }
+    }],
+    "primaryKey": [
+	"name",
+	"homepage"
+    ]
+}
