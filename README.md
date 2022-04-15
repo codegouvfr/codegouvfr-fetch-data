@@ -2,16 +2,9 @@
 
 # Presentation
 
-The code in this repository collects data from forges (github.com,
-gitlab.com and GitLab instances) about *accounts* (GitHub
-organizations or GitLab groups) and their *repositories*.
+The code in this repository collects data from forges (github.com, gitlab.com and GitLab instances) about *accounts* (GitHub organizations or GitLab groups) and their *repositories*.
 
-For example, given [this
-list](https://git.sr.ht/~etalab/codegouvfr-sources/tree/master/item/comptes-organismes-publics.yml)
-of account URLs and [this
-csv](https://git.sr.ht/~etalab/codegouvfr-fetch-data/tree/master/item/platforms.csv)
-of supported platforms, we collect the data we need for
-[code.gouv.fr](https://code.gouv.fr).
+For example, given [this list](https://git.sr.ht/~etalab/codegouvfr-sources/tree/master/item/comptes-organismes-publics.yml) of account URLs and [this csv](https://git.sr.ht/~etalab/codegouvfr-fetch-data/tree/master/item/platforms.csv) of supported platforms, we collect the data we need for [code.gouv.fr](https://code.gouv.fr).
 
 # Installation and configuration
 
@@ -35,18 +28,13 @@ We aim at collecting data from more forges:
 - [BitBucket](https://bitbucket.org)
 - [Gogs](https://gogs.io) or [Gitea](https://gitea.io) instances
 
-SourceHut is our priority because [Etalab](https://sr.ht/~etalab/)
-hosts some of its source code here.
+SourceHut is our priority because [Etalab](https://sr.ht/~etalab/) hosts some of its source code here.
 
-If you are familiar with SourceHut GraphQL APIs and can help with
-contributing, feel free to send a patch to
-[~etalab/codegouvfr-devel@lists.sr.ht](mailto:~etalab/codegouvfr-devel@lists.sr.ht)
-or to [reach us](mailto:logiciels-libres@data.gouv.fr) directly.
+If you are familiar with SourceHut GraphQL APIs and can help with contributing, feel free to send a patch to [~etalab/codegouvfr-devel@lists.sr.ht](mailto:~etalab/codegouvfr-devel@lists.sr.ht) or to [reach us](mailto:logiciels-libres@data.gouv.fr) directly.
 
 # Data models
 
-We use [Table Schema
-files](https://frictionlessdata.io/specs/table-schema/).
+We use [Table Schema files](https://frictionlessdata.io/specs/table-schema/).
 
 Please refer to [the schema files in this directory](./schemas/).
 
@@ -54,6 +42,7 @@ Please refer to [the schema files in this directory](./schemas/).
 
 - Organizations data as [csv](https://code.gouv.fr/data/organizations/csv/all.csv) and [json](https://code.gouv.fr/data/organizations/json/all.json)
 - Repositories data as [csv](https://code.gouv.fr//data/repositories/csv/all.csv) and [json](https://code.gouv.fr/data/repositories/json/all.json)
+- Libraries data as [csv](https://code.gouv.fr//data/libraries/csv/all.csv) and [json](https://code.gouv.fr/data/libraries/json/all.json)
 
 # Contributing
 
@@ -66,6 +55,6 @@ To send bug reports, patches or to share ideas, please write to the
 
 The source code of this repository is published under [MIT](LICENSE.md).
 
-2018-2021 DINSIC, DINUM, Etalab, Antoine Augusti, Bastien Guerry.
+2018-2022 DINSIC, DINUM, Etalab, Antoine Augusti, Bastien Guerry.
 
-2018-2021 Other contributors, as readable in the history of this repository.
+2018-2022 Other contributors, as readable in the history of this repository.
