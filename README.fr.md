@@ -30,6 +30,7 @@ Les données sont décrites à l'aide de fichiers [Table Schema](https://frictio
 
 | Nom                      | Type                                | Description                                                                   | Exemple                                  | Propriétés                                     |
 |--------------------------|-------------------------------------|-------------------------------------------------------------------------------|------------------------------------------|------------------------------------------------|
+| id                       | nombre entier                       | Identifiant du répertoire                                                     | 1                                        | Valeur obligatoire                             |
 | name                     | chaîne de caractères                | Le nom du répertoire                                                          | nom-repertoire                           | Valeur obligatoire                             |
 | organization_name        | chaîne de caractères                | Le nom de l'organisation                                                      | etalab                                   | Valeur obligatoire                             |
 | platform                 | chaîne de caractères                | La plateforme de dépôt de code                                                | GitHub                                   | Valeur obligatoire, autorisées : GitHub,GitLab |
@@ -57,6 +58,7 @@ Les données sont décrites à l'aide de fichiers [Table Schema](https://frictio
 
 | Nom                | Type                                  | Description                                        | Exemple                                                    | Propriétés                                             |
 |--------------------|---------------------------------------|----------------------------------------------------|------------------------------------------------------------|--------------------------------------------------------|
+| id                 | nombre entier                         | Identifiant de l'organisation                      | 1                                                          | Valeur obligatoire                                     |
 | login              | chaîne de caractères                  | Le pseudo de l'organisation                        | Etalab                                                     | Valeur obligatoire                                     |
 | description        | chaîne de caractères                  | La description de l'organisation                   | Observatoire accidentologie plaisance et loisirs nautiques | Valeur optionnelle                                     |
 | nom                | chaîne de caractères                  | Le nom complet de l'organisation                   | Ministère de l'Intérieur                                   | Valeur optionnelle                                     |
