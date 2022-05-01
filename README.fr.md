@@ -69,18 +69,12 @@ Les données sont décrites à l'aide de fichiers [Table Schema](https://frictio
 | creation_date      | date et heure                         | La date de création de l'organisation              | 2013-08-26T16:03:40Z                                       | Valeur optionnelle                                     |
 | platform           | chaîne de caractères                  | La plateforme utilisée de l'organisation           | GitHub                                                     | Valeur obligatoire, Valeurs autorisées : GitHub,GitLab |
 
-# Contributions
-
-Vos contributions sont les bienvenues !
-
-Pour des retours d'anomalie ou des propositions de contributions sur
-l'un de ces dépôts, merci d'écrire à la liste de discussion *publique*
-[~etalab/logiciels-libres@lists.sr.ht](mailto:~etalab/logiciels-libres@lists.sr.ht).
+# [Contribuer](CONTRIBUTING.md)
 
 # Licence
 
 Le code source du répertoire est publié sous [la licence MIT](LICENSE.md).
 
-2018-2021 Direction interministérielle du numérique et du système d’information et de communication de l’État, Antoine Augusti, Bastien Guerry.
+2018-2022 Direction interministérielle du numérique et du système d’information et de communication de l’État, Antoine Augusti, Bastien Guerry.
 
-2018-2021 Les autres contributeurs dans la liste est accessible via l’historique du dépôt.
+2018-2022 Les autres contributeurs dans la liste est accessible via l’historique du dépôt.
