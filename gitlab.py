@@ -39,7 +39,10 @@ class GitLabOrg(object):
             repo["platform"] = "GitLab"
             repo["repository_url"] = repository["web_url"]
             repo["description"] = repository["description"]
-            repo["default_branch"] = repository["default_branch"]
+            try:
+                repo["default_branch"] = repository["default_branch"]
+            except KeyError:
+                repo["default_branch"] = "main"
             repo["is_fork"] = None
             repo["is_archived"] = repository["archived"]
             repo["creation_date"] = format_datetime(repository["created_at"])
@@ -60,7 +63,10 @@ class GitLabOrg(object):
                 # Is it appropriate? Issues can be disabled, always leading to 0 issues
                 repo["open_issues_count"] = 0
             repo["language"] = None
-            repo["topics"] = ",".join(repository["tag_list"])
+            try:
+                repo["topics"] = ",".join(repository["topics"])
+            except KeyError:
+                repo["topics"] = ",".join(repository["tag_list"])
             repo.update(self.swh_attributes(repo))
 
             for k, v in Repository(**repo).to_dict_list().items():
