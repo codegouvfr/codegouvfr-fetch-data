@@ -12,11 +12,13 @@ class BaseModel(object):
 
 @dataclass(frozen=True)
 class Repository(BaseModel):
+    id: int
     name: str
     organization_name: str
     platform: str
     repository_url: str
     description: str
+    default_branch: str
     is_fork: bool
     is_archived: bool
     creation_date: str
