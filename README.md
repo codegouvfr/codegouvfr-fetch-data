@@ -44,12 +44,7 @@ Please refer to [the schema files in this directory](./schemas/).
 - Repositories data as [csv](https://code.gouv.fr//data/repositories/csv/all.csv) and [json](https://code.gouv.fr/data/repositories/json/all.json)
 - Libraries data as [csv](https://code.gouv.fr//data/libraries/csv/all.csv) and [json](https://code.gouv.fr/data/libraries/json/all.json)
 
-# Contributing
-
-Contributions are welcome!
-
-To send bug reports, patches or to share ideas, please write to the
-*public* mailing list: [~etalab/codegouvfr-devel@lists.sr.ht](mailto:~etalab/codegouvfr-devel@lists.sr.ht)
+# [Contributing](CONTRIBUTING.md)
 
 # License
 
