@@ -58,7 +58,7 @@ class GitLabOrg(object):
                 # Is it appropriate? Issues can be disabled, always leading to 0 issues
                 repo["open_issues_count"] = 0
             repo["language"] = None
-            repo["topics"] = ",".join(repository["tag_list"])
+            repo["topics"] = ",".join(repository["topics"])
             repo.update(self.swh_attributes(repo))
 
             for k, v in Repository(**repo).to_dict_list().items():
