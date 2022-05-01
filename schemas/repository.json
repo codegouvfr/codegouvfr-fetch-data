@@ -7,6 +7,15 @@
     "homepage":"https://git.sr.ht/~etalab/codegouvfr-fetch-data",
     "fields":[
 	{
+        "name":"id",
+        "description":"Repository platform-relative identifier",
+        "example": 1,
+        "type":"integer",
+        "constraints": {
+            "required": true
+        }
+    },
+	{
         "name":"name",
         "description":"Repository name",
         "example": "nom-repertoire",

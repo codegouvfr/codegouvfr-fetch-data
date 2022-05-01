@@ -33,6 +33,7 @@ class GitLabOrg(object):
         for repository in data:
             repo = {}
 
+            repo["id"] = repository["id"]
             repo["name"] = repository["path"]
             repo["organization_name"] = self.organization
             repo["platform"] = "GitLab"

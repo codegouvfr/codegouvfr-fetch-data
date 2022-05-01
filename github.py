@@ -54,6 +54,7 @@ class GitHubOrg(object):
         for repository in data:
             repo = {}
 
+            repo["id"] = repository["id"]
             repo["name"] = repository["name"]
             repo["organization_name"] = repository["owner"]["login"]
             repo["platform"] = "GitHub"
