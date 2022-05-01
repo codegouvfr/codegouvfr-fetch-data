@@ -57,6 +57,15 @@
         }
     },
 	{
+        "name":"default_branch",
+        "description":"The default branch for this repository",
+        "example": "main",
+        "type":"string",
+        "constraints": {
+            "required": false
+        }
+    },
+	{
         "name":"is_fork",
         "description":"Whether the repository is a fork",
         "example": "false",

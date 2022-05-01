@@ -59,6 +59,7 @@ class GitHubOrg(object):
             repo["platform"] = "GitHub"
             repo["repository_url"] = repository["html_url"]
             repo["description"] = repository["description"]
+            repo["default_branch"] = repository["default_branch"]
             repo["is_fork"] = repository["fork"]
             repo["is_archived"] = repository["archived"]
             repo["creation_date"] = repository["created_at"]

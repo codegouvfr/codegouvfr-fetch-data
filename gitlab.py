@@ -38,6 +38,7 @@ class GitLabOrg(object):
             repo["platform"] = "GitLab"
             repo["repository_url"] = repository["web_url"]
             repo["description"] = repository["description"]
+            repo["default_branch"] = repository["default_branch"]
             repo["is_fork"] = None
             repo["is_archived"] = repository["archived"]
             repo["creation_date"] = format_datetime(repository["created_at"])
