@@ -3,7 +3,7 @@
     "author":"Antoine Augusti - Etalab/DINUM <antoine.augusti@data.gouv.fr>",
     "maintainer":"Pôle logiciels libres d'Etalab <logiciels-libres@data.gouv.fr>",
     "created":"2018-12-31",
-    "updated":"2021-12-06",
+    "updated":"2022-05-01",
     "homepage":"https://git.sr.ht/~etalab/codegouvfr-fetch-data",
     "fields":[
 	{
