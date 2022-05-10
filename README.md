@@ -2,9 +2,9 @@
 
 # Presentation
 
-The code in this repository collects data from forges (github.com, gitlab.com and GitLab instances) about *accounts* (GitHub organizations or GitLab groups) and their *repositories*.
+The code in this repository collects data from forges (github.com, gitlab.com and GitLab instances) about *accounts* (GitHub organizations or GitLab groups), their *repositories* and *libraries*.
 
-For example, given [this list](https://git.sr.ht/~etalab/codegouvfr-sources/tree/master/item/comptes-organismes-publics.yml) of account URLs and [this csv](https://git.sr.ht/~etalab/codegouvfr-fetch-data/tree/master/item/platforms.csv) of supported platforms, we collect the data we need for [code.gouv.fr](https://code.gouv.fr).
+Given [this list](https://git.sr.ht/~etalab/codegouvfr-sources/tree/master/item/comptes-organismes-publics.yml) of accounts URLs and [this csv](https://git.sr.ht/~etalab/codegouvfr-fetch-data/tree/master/item/platforms.csv) of platforms, we collect the data we need for [code.gouv.fr](https://code.gouv.fr).
 
 # Installation and configuration
 
@@ -41,8 +41,8 @@ Please refer to [the schema files in this directory](./schemas/).
 ## Get the data
 
 - Organizations data as [csv](https://code.gouv.fr/data/organizations/csv/all.csv) and [json](https://code.gouv.fr/data/organizations/json/all.json)
-- Repositories data as [csv](https://code.gouv.fr//data/repositories/csv/all.csv) and [json](https://code.gouv.fr/data/repositories/json/all.json)
-- Libraries data as [csv](https://code.gouv.fr//data/libraries/csv/all.csv) and [json](https://code.gouv.fr/data/libraries/json/all.json)
+- Repositories data as [csv](https://code.gouv.fr/data/repositories/csv/all.csv) and [json](https://code.gouv.fr/data/repositories/json/all.json)
+- Libraries data as [csv](https://code.gouv.fr/data/libraries/csv/all.csv) and [json](https://code.gouv.fr/data/libraries/json/all.json)
 
 # [Contributing](CONTRIBUTING.md)
 
