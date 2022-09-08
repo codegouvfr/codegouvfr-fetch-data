@@ -1,0 +1,37 @@
+# This repository adheres to the publiccode.yml standard by including this
+# metadata file that makes public software easily discoverable.
+# More info at https://github.com/italia/publiccode.yml
+
+publiccodeYmlVersion: '0.2'
+name: codegouvfr-fetch-data
+url: 'https://git.sr.ht/~etalab/codegouvfr-fetch-data'
+landingURL: 'https://git.sr.ht/~etalab/codegouvfr-fetch-data'
+developmentStatus: stable
+softwareVersion: '0.1'
+softwareType: standalone/other
+usedBy:
+  - Etalab / DINUM
+  - Etat du Luxembourg
+releaseDate: '2022-09-08'
+maintenance:
+  type: internal
+legal:
+  license: MIT
+  mainCopyrightOwner: DINUM
+  repoOwner: DINUM
+intendedAudience:
+  scope:
+    - government
+localisation:
+  localisationReady: false
+description:
+  en:
+    documentation: 'https://git.sr.ht/~etalab/codegouvfr-fetch-data'
+    shortDescription: |-
+      Collect metadata about organizations/groups in forges (github.com,
+      gitlab.com, GitLab instances) and about their repositories.
+    longDescription: |
+      The code in this repository collects data from forges (github.com,
+      gitlab.com and GitLab instances) about _accounts_ (GitHub organizations or
+      GitLab groups), their _repositories_ and _libraries_.
+    genericName: codegouvfr-fetch-data
