@@ -50,6 +50,6 @@ Please refer to [the schema files in this directory](./schemas/).
 
 The source code of this repository is published under [MIT](LICENSE.md).
 
-2018-2022 DINSIC, DINUM, Etalab, Antoine Augusti, Bastien Guerry.
+2018-2023 DINSIC, DINUM, Etalab, Antoine Augusti, Bastien Guerry.
 
-2018-2022 Other contributors, as readable in the history of this repository.
+2018-2023 Other contributors, as readable in the history of this repository.

@@ -24,6 +24,6 @@ Les modèles de données sont décrits via les fichiers [Table Schema](https://f
 
 Le code source du répertoire est publié sous [la licence MIT](LICENSE.md).
 
-2018-2022 Direction interministérielle du numérique et du système d’information et de communication de l’État, Antoine Augusti, Bastien Guerry.
+2018-2023 Direction interministérielle du numérique et du système d’information et de communication de l’État, Antoine Augusti, Bastien Guerry.
 
-2018-2022 Les autres contributeurs dans la liste est accessible via l’historique du dépôt.
+2018-2023 Les autres contributeurs dans la liste est accessible via l’historique du dépôt.
