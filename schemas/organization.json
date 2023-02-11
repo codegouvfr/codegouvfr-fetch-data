@@ -1,7 +1,7 @@
 {
     "title":"Metadata of a Git organization",
     "author":"Antoine Augusti - Etalab/DINUM <antoine.augusti@data.gouv.fr>",
-    "maintainer":"Pôle logiciels libres d'Etalab <logiciels-libres@data.gouv.fr>",
+    "maintainer":"Pôle logiciels libres d'Etalab <contact@code.gouv.fr>",
     "created":"2018-12-31",
     "updated":"2021-12-06",
     "homepage":"https://git.sr.ht/~etalab/codegouvfr-fetch-data",

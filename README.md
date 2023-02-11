@@ -30,7 +30,7 @@ We aim at collecting data from more forges:
 
 SourceHut is our priority because [Etalab](https://sr.ht/~etalab/) hosts some of its source code here.
 
-If you are familiar with SourceHut GraphQL APIs and can help with contributing, feel free to send a patch to [~etalab/codegouvfr-devel@lists.sr.ht](mailto:~etalab/codegouvfr-devel@lists.sr.ht) or to [reach us](mailto:logiciels-libres@data.gouv.fr) directly.
+If you are familiar with SourceHut GraphQL APIs and can help with contributing, feel free to send a patch to [~etalab/codegouvfr-devel@lists.sr.ht](mailto:~etalab/codegouvfr-devel@lists.sr.ht) or to [reach us](mailto:contact@code.gouv.fr) directly.
 
 # Data models
 
