@@ -4,8 +4,8 @@
 
 publiccodeYmlVersion: '0.2'
 name: codegouvfr-fetch-data
-url: 'https://git.sr.ht/~etalab/codegouvfr-fetch-data'
-landingURL: 'https://git.sr.ht/~etalab/codegouvfr-fetch-data'
+url: 'https://git.sr.ht/~codegouvfr/codegouvfr-fetch-data'
+landingURL: 'https://git.sr.ht/~codegouvfr/codegouvfr-fetch-data'
 developmentStatus: stable
 softwareVersion: '0.1'
 softwareType: standalone/other
@@ -26,7 +26,7 @@ localisation:
   localisationReady: false
 description:
   en:
-    documentation: 'https://git.sr.ht/~etalab/codegouvfr-fetch-data'
+    documentation: 'https://git.sr.ht/~codegouvfr/codegouvfr-fetch-data'
     shortDescription: |-
       Collect metadata about organizations/groups in forges (github.com,
       gitlab.com, GitLab instances) and about their repositories.

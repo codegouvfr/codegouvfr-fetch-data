@@ -4,7 +4,7 @@
     "maintainer":"Pôle logiciels libres d'Etalab <contact@code.gouv.fr>",
     "created":"2022-04-15",
     "updated":"2022-04-15",
-    "homepage":"https://git.sr.ht/~etalab/codegouvfr-fetch-data",
+    "homepage":"https://git.sr.ht/~codegouvfr/codegouvfr-fetch-data",
     "fields":[
 	{
         "name":"deprecation_reason",

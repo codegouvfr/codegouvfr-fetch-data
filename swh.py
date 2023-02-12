@@ -9,7 +9,7 @@ class SwhExists(object):
     SWH_FILE = "data/swh_exists.csv"
     SWH_BASE_URL = "https://archive.softwareheritage.org/api/1/"
     SWH_HEADERS = {
-        "User-Agent": "~etalab/codegouvfr-fetch-data; contact: contact@code.gouv.fr"
+        "User-Agent": "~codegouvfr/codegouvfr-fetch-data; contact: contact@code.gouv.fr"
     }
 
     def __init__(self):
