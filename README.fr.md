@@ -1,4 +1,4 @@
-[![Software License](https://img.shields.io/badge/Licence-MIT-orange.svg?style=flat-square)](https://git.sr.ht/~etalab/codegouvfr-fetch-data/tree/master/item/LICENSE.md) [![goodtables.io](https://goodtables.io/badge/github/etalab/data-codes-sources-fr.svg)](https://goodtables.io/github/etalab/data-codes-sources-fr)
+[![Software License](https://img.shields.io/badge/Licence-MIT-orange.svg?style=flat-square)](https://git.sr.ht/~codegouvfr/codegouvfr-fetch-data/tree/master/item/LICENSE.md) [![goodtables.io](https://goodtables.io/badge/github/etalab/data-codes-sources-fr.svg)](https://goodtables.io/github/etalab/data-codes-sources-fr)
 
 # Ce que fait codegouvfr-fetch-data
 
@@ -6,7 +6,7 @@ Le but de ce dépôt est de collecter des métadonnées sur les comptes d'organi
 
 Ne sont pour l'instant traités que les comptes d'organisation présents sur les plateformes github.com, gitlab.com et les forges locales GitLab.
 
-Pour ajouter le compte d'organisation de votre organisme, voir [ce fichier](https://git.sr.ht/~etalab/codegouvfr-sources/blob/master/comptes-organismes-publics.yml) ou envoyer un mail à [contact@code.gouv.fr](mailto:contact@code.gouv.fr).
+Pour ajouter le compte d'organisation de votre organisme, voir [ce fichier](https://git.sr.ht/~codegouvfr/codegouvfr-sources/blob/master/comptes-organismes-publics.yml) ou envoyer un mail à [contact@code.gouv.fr](mailto:contact@code.gouv.fr).
 
 ## Données
 
