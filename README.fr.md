@@ -1,4 +1,4 @@
-[![Software License](https://img.shields.io/badge/Licence-MIT-orange.svg?style=flat-square)](https://git.sr.ht/~codegouvfr/codegouvfr-fetch-data/tree/master/item/LICENSE.md) [![goodtables.io](https://goodtables.io/badge/github/etalab/data-codes-sources-fr.svg)](https://goodtables.io/github/etalab/data-codes-sources-fr)
+[![Software License](https://img.shields.io/badge/Licence-MIT-orange.svg?style=flat-square)](https://git.sr.ht/~codegouvfr/codegouvfr-fetch-data/tree/master/item/LICENSE.md)
 
 # Ce que fait codegouvfr-fetch-data
 
