@@ -68,7 +68,11 @@ class GitHubOrg(object):
             repo["last_modification"] = repository["pushed_at"]
             repo["homepage"] = repository["homepage"]
             repo["stars_count"] = repository["stargazers_count"]
-            repo["forks_count"] = repository["forks_count"]
+            try:
+                repo["forks_count"] = repository["forks_count"]
+            except KeyError:
+                # Handle occasional key errors
+                repo["forks_count"] = 0
             try:
                 repo["license"] = self.clean_license(repository["license"]["name"])
             except Exception:

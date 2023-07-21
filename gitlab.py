@@ -55,7 +55,11 @@ class GitLabOrg(object):
             )
             repo["homepage"] = None
             repo["stars_count"] = repository["star_count"]
-            repo["forks_count"] = repository["forks_count"]
+            try:
+                repo["forks_count"] = repository["forks_count"]
+            except KeyError:
+                # Handle occasional key errors
+                repo["forks_count"] = 0
             repo["license"] = None
             try:
                 repo["open_issues_count"] = repository["open_issues_count"]
