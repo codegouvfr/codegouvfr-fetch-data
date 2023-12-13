@@ -11,8 +11,6 @@ git.beta.pole-emploi.fr,gitlab
 git.cines.fr,gitlab
 git.leximpact.dev,gitlab
 github.com,github
-gitlab-ens.univ-lille.fr,gitlab
-gitlab-etu.fil.univ-lille.fr,gitlab
 gitlab-fil.univ-lille.fr,gitlab
 gitlab-forge.din.developpement-durable.gouv.fr,gitlab
 gitlab.adullact.net,gitlab
@@ -41,20 +39,17 @@ plmlab.math.cnrs.fr,gitlab
 src.koda.cnrs.fr,gitlab
 src.koda.dsi.cnrs.fr,gitlab
 git.lias-lab.fr,gitlab
-gitlab.u-psud.fr,gitlab
 gitlab.univ-lr.fr,gitlab
 gitlab.cirad.fr,gitlab
 gitlab.telecom-paris.fr,gitlab
 cip.culture.fr/gitlab,gitlab
 gitlab-research.centralesupelec.fr,gitlab
 gitlab.inha.fr,gitlab
-forge.ins2i.fr,gitlab
 gitlab.obspm.fr,gitlab
 gitlab.sevre-nantaise.com,gitlab
 gitlab.dsi.universite-paris-saclay.fr,gitlab
 gitlabev.imtbs-tsp.eu,gitlab
 gitlab.labocleo.org,gitlab
-git.unilim.fr,gitlab
 gitlab.pmcs2i.ec-lyon.fr,gitlab
 gitlab.univ-nantes.fr,gitlab
 gogs.univ-littoral.fr,gogs
@@ -86,7 +81,5 @@ git-xen.lmgc.univ-montp2.fr,gitlab
 gitlab.maisondelasimulation.fr,gitlab
 gitlab.lam.fr,gitlab
 gitlab.synchrotron-soleil.fr,gitlab
-icube-forge.unistra.fr,gitlab
-git.opendatafrance.net,gitlab
 code.culture.fr,gitlab
 romeogit.univ-reims.fr,gitlab
