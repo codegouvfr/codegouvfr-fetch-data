@@ -1,5 +1,5 @@
 [![img](https://img.shields.io/badge/code.gouv.fr-contributif-blue.svg)](https://code.gouv.fr/documentation/#/publier)
-[![Software License](https://img.shields.io/badge/Licence-MIT-orange.svg?style=flat-square)](https://git.sr.ht/~codegouvfr/codegouvfr-fetch-data/tree/master/item/LICENSE.md)
+[![Software License](https://img.shields.io/badge/Licence-MIT-orange.svg)](https://git.sr.ht/~codegouvfr/codegouvfr-fetch-data/tree/master/item/LICENSE.md)
 
 # Presentation
 
